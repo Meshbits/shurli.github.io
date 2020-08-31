@@ -1,0 +1,268 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  
+}
+.banner-bg{
+
+  background: linear-gradient(233.14deg, #4500CA 0%, #121328 100%)
+} 
+header{
+  
+  padding: 24px 40px 18px;
+  overflow: hidden;
+}
+header .right a {
+  float: left;
+  padding: 15px 20px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border-radius: 50px;
+  margin-left: 10px;
+
+  color: #F7F7F7;
+
+  font-family: 'Barlow';
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+  
+
+}
+
+header a.logo img {
+  height: 60px;
+}
+header .right a:hover {
+  background-color: #FFFFFF;
+  color: #E44B53;
+}
+
+header .right a.active {
+  background-color: #FFFFFF;
+  color: #E44B53;
+}
+header .right a.active:hover {
+  background-color: #E44B53;
+  color: #FFFFFF;
+}
+
+.right {
+  float: right;
+}
+
+
+.curved-div {
+  position: relative;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;
+}
+
+.curved-div .stars{
+  position: absolute;
+  background: url(../images/stars.png) repeat;
+  height: 50vh;
+  width: 100vw;
+}
+.curved-div .planet-l{
+  position: absolute;
+  background-image: url(../images/planet-l.png);
+  height: 32px;
+  width: 32px;
+  top: 376px;
+  left: 24px;
+
+}
+.curved-div .planet-r{
+  position: absolute;
+  top: 200px;
+  right: 24px;
+  background-image: url(../images/planet-r.png);
+    height: 343px;
+    width: 271px;
+
+  
+}
+
+.curved-div .banner-content{
+
+  z-index: 1;
+  position: relative;
+  padding: 0 24px;
+  overflow: hidden;
+}
+.curved-div .banner-content h1 {
+  color: #FEFEFE;
+  font-family: "Barlow Condensed";
+  font-size: 95px;
+  letter-spacing: 4.08px;
+  line-height: 98px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 10vh;
+  margin-left: 10vw;
+}
+a.btn{
+
+
+    padding: 15px 40px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border-radius: 50px;
+
+  background-color: #E44B53;
+  color: #FFFFFF;
+
+  font-family: 'Barlow';
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+  
+}
+a.btn:hover{
+  background-color: #FFFFFF;
+  color: #E44B53;
+}
+
+
+.curved-div svg {
+  display: block;
+  position: relative;
+  margin-top: -60px;
+  
+}
+
+
+.curved-div p {
+  font-size: 1rem;
+  margin:0 5rem 0rem 5rem;
+
+}
+
+footer{
+
+
+    background-color: #F7F7F7;
+
+      color: #121328;
+      
+      text-align: center;
+      margin-top: -1px;
+
+bottom: 0;
+
+}
+footer p{
+
+  width: 100vw;
+  font-family: Roboto;
+      font-size: 14px;
+      letter-spacing: 0;
+      line-height: 50px;
+      margin: 0;
+
+}
+    
+  
+
+
+@media only screen and (max-width : 479px) {
+  header{
+  
+    padding: 22px 20px 18px;
+
+  }
+
+  header .right a {
+    padding: 16px 14px;
+
+    margin-left: 10px;
+    margin-right: -5px;
+    margin-top: 2px;
+  
+    color: #F7F7F7;
+  
+    
+    font-size: 16px;
+    line-height: 16px;
+
+    
+  
+  }
+
+  .curved-div .planet-l{
+
+
+    top: 220px;
+    left: -20px;
+  
+  }
+  .curved-div .planet-r{
+
+    top: 100px;
+    right: -220px;
+  
+    
+  }
+
+  .curved-div .banner-content h1 {
+    
+    font-size: 60px;
+    letter-spacing: 2.58px;
+    line-height: 65px;
+    margin-top: 8vh;
+    margin-left: 5vw;
+  }
+  a.btn{
+  
+  
+      padding: 10px 20px;
+  
+
+    font-size: 16px;
+    line-height: 20px;
+    
+  }
+
+}
+
+#main_content {
+  background: white;
+  padding: 20px;
+}
+
+.highlight {
+    background: #ececec;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
